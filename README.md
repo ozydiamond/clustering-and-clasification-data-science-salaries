@@ -62,12 +62,16 @@ To run this project, ensure you have the following installed:
 
 ## Results
 ### Clustering
-- Utilized algorithms: K-Means
-- Key insights: Provide a brief summary of findings or clustering results.
+- Utilized algorithms: K-Means with 3 cluster
+- Silhouette score: 0.7424
+- Key insights:
+   - Cluster 0: Senior employees (2022.46), high salary ($156K), 46.6% remote, large companies, full-time, in developed countries.
+   - Cluster 1: Mid-level (2021.89), moderate salary ($73K), 59.6% remote, medium companies, full-time, in smaller firms.
+   - Cluster 2: Entry-level (2021.57), low salary ($62K), 79.7% remote, small companies, part-time/contract, in startups/developing countries.
 
 ### Classification
 - Utilized algorithms: Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbor.
-- Model Accuracy: e.g., 85% on the test dataset.
+- Model Accuracy: 99% (Decisision Tree)
 
 ## Acknowledgments
 - Dicoding x IDCamp: "Belajar Machine Learning untuk Pemula" course materials.
